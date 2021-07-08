@@ -1,0 +1,53 @@
+.root {
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vw;
+  flex-direction: column;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding-bottom: 8px;
+}
+
+.logoutButton {
+  padding: 8px;
+  background-color: #1e90ff;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  width: 100px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+.input{
+    display: flex;
+    align-items: center;
+    border: 1px solid #1e90ff;
+    margin-top: 20px;
+    justify-content: center;
+    height: 250px;
+}
+.loadingText{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #1e90ff;
+}
+.outputText{
+    font-weight: 500;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding:30px;
+    margin-top: 20px;
+    line-height: 30px;
+}
